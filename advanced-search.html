@@ -1,0 +1,61 @@
+<!--Links back to the google search-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="./index.html">Google Search</a>
+        </header>
+        <div>
+            <form action="https://www.google.com/search">
+                <div class="container">
+                    <img src="./images/unnamed.png" alt="Google Logo">
+                    <!-- All these words -->
+                    <div class="section">
+                       <div class="label">
+                        <label for="as_q">All these words:</label>
+                       </div>
+                       <div>
+                        <input type="text" id="as_q" name="as_q" placeholder="write here..."><br><br>
+                       </div>
+                    </div>
+                    <!-- Exact word or phrase -->
+                    <div class="section">
+                        <div class="label">
+                            <label for="as_epq">This exact word or phrase:</label>
+                        </div>
+                        <div>
+                            <input type="text" id="as_epq" name="as_epq" placeholder="write here..."><br><br>
+                        </div>
+                    </div>
+                    <!-- Any of these words -->
+                    <div class="section">
+                        <div class="label">
+                            <label for="as_oq">Any of these words:</label>
+                        </div>
+                        <div>
+                            <input type="text" id="as_oq" name="as_oq" placeholder="write here..."><br><br>
+                        </div>
+                    </div>
+                    <!-- None of these words -->
+                    <div class="section">
+                        <div class="label">
+                            <label for="as_eq">None of these words:</label>
+                        </div>
+                        <div>
+                            <input type="text" id="as_eq" name="as_eq" placeholder="write here..."><br><br>
+                        </div>
+                    </div>
+                    <div>
+                    <input class="advanced-search" type="submit" value="Advanced Search">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
+
+<!--corregir!-->

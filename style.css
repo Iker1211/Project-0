@@ -1,0 +1,116 @@
+@import url(./bootstrap.min.css);
+body {
+  background-color: white;
+}
+body section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body section .alinear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+body section .imagen {
+  width: 580px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+body section .imagen img {
+  width: 368px;
+  height: 150px;
+  object-fit: cover;
+}
+body section div:last-child {
+  display: flex;
+  gap: 10px;
+}
+body section div:last-child input {
+  margin: 0 5px;
+  margin-top: 20px;
+  padding: 12px 20px;
+  color: #555;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  outline: none;
+  font-weight: bold;
+}
+body section div:last-child input:hover {
+  border: 1px solid #ccc;
+}
+body section div {
+  width: 580px;
+}
+body section div .form-control {
+  width: 100%;
+  border-radius: 30px;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+body section div .form-control:focus {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+header a {
+  text-align: right;
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+header a:first-child {
+  margin-left: 0;
+}
+
+.container {
+  width: 480px;
+}
+.container img {
+  width: 368px;
+  height: 150px;
+  object-fit: cover;
+  margin-left: 40px;
+}
+.container .label {
+  width: 185px;
+}
+.container .section {
+  display: flex;
+  justify-content: space-between;
+}
+.container div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container div:last-child .advanced-search {
+  align-items: center;
+  background-color: blue;
+  color: white;
+  margin: 0 5px;
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  outline: none;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
